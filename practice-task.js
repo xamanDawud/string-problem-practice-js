@@ -53,3 +53,17 @@ for (let i = 1; i < arr.length; i++) {
 }
 
 console.log(firsrIndex);
+
+// Get the second largest number in a array
+let arrr = [23, 53, 66, 345];
+let largesNumber = arr[0];
+let secondLargestNum = 0;
+
+for (let i = 1; i < arrr.length; i++) {
+    if (arrr[i] > largesNumber) {
+        secondLargestNum = largesNumber;
+        largesNumber = arrr[i];
+    }
+}
+console.log(largesNumber);
+console.log(secondLargestNum);

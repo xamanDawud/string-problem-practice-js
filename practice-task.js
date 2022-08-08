@@ -41,3 +41,15 @@ function isMin(x, y, z) {
 }
 
 console.log(isMin(23, 535, 6434));
+
+// find the min number into the array values
+let arr = [50, 345, 243, 6324, 234, 48090];
+let firsrIndex = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] <= firsrIndex) {
+        firsrIndex = arr[i];
+    }
+}
+
+console.log(firsrIndex);

@@ -1,9 +1,5 @@
-function reversedWord(text) {
-    let preText = "";
-    for (let i = text.length - 1; i >= 0; i--) {
-        preText += text[i];
-    }
-    return preText;
-}
+let lyrics =
+    "Sada Sada kala Kala , Rong Jomese Sada Kala , Tumi Bondu Kala Pakhi Ami Jeno Ki";
 
-console.log(reversedWord("In the name of "));
+const cutCut = lyrics.slice(5, 10);
+console.log(cutCut);

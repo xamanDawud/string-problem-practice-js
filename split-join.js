@@ -7,9 +7,6 @@ console.log(character);
 
 //
 
-const cutCut = lyrics.slice(5, 10);
-console.log(cutCut);
-
 const alsoCut = lyrics.substring(14, 20);
 console.log(alsoCut);
 
